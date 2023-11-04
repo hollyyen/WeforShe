@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char c='a'; 
+ cout << (int)'c'; // typecsting
+    
+    int a; int b;
+ cin >> a>>b;
+ cout<< a<<" "<<b<< endl;
+ 
+ bool x=2;
+ bool y=4;
+ cout << (x==y);
+ 
+ 
+}

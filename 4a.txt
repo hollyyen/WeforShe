@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+// print all inputs till 42 is received
+using namespace std;
+int main()
+{
+ while(true)
+ {
+     int n;
+     cin>>n;
+     if(n==42)
+     break;
+     else
+     cout<< n<< endl;
+ }
+}

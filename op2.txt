@@ -1,0 +1,13 @@
+#include<stdio.h>
+int  main() {
+    printf("\n Printing values of expressions : ");
+     printf("%d\t",(10==10));
+     printf("%d\t",(10<10));
+     printf("%d\t",(10<=10));
+     printf("%d\t",(10>10));
+     printf("%d\t",(10>=10));
+     printf("%d\t",(10!=10));    
+     printf("%d\t",(!10));
+     printf("%d\t",(!0));
+     printf("%d\t\n",(!1));
+}

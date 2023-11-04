@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s1,s2;char ch;
+    cin >> s1>>s2;
+    int i=0;int j=0;
+    string r="";
+    for(i=0;i<s2.size();i++)
+    {    ch=s2[i]; r="";
+        for(j=0;j<s1.size();j++)
+        {
+            if(s1[j]!=ch)
+            r+=s1[j];
+        }
+        s1=r;
+    }
+    cout << r;
+}
+// remove specific words
+
+Input:
+string1 = "computer"
+string2 = "cat"
+Output: "ompuer"
+Explanation: After removing characters(c, a, t)
+from string1 we get "ompuer".

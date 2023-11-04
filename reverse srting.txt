@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+// reverse a string
+using namespace std;
+int main()
+{
+string s;
+getline(cin,s);
+cin.ignore();
+string r;
+int i;
+for(i=0;i<s.size();i++)
+r=s[i]+r;
+cout << r<<endl;
+}

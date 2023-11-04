@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+{
+    string s;
+    cin>>s;
+    int t=0;
+    int k=0;
+    int i=0;
+    int a[s.size()/2 +1];
+    for(i=0;i<s.size();i=i+2)
+      a[k++]=(int)s[i]-48;
+     sort(a,a+s.size()/2 +1);
+     string s1="";
+     for(i=0;i<s.size()/2+ 1;i++)
+     {
+     s1+=(char)(a[i]+48);
+     s1+='+';
+     }
+     cout<< s1.substr(0,s1.size()-1);
+}

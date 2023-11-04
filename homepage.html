@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeForShe</title>
+  <style>
+    #search-here{
+        margin: 30px;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+    #nav{
+       
+    }
+    #logo{
+    margin-top: 20px;
+      margin-left: 60px;  
+     margin-right: 900px;
+    }
+    #login{
+        margin: 70px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #heading{
+        font-size: larger;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: 600px;
+        color: purple;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+        background-image: url(https://images.unsplash.com/photo-1536514498073-50e69d39c6cf?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdWQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    }
+    #content{
+        font-size: 20px;
+        color: rgb(11, 12, 12);
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #heading2{
+         font-size: larger;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: 600px;
+        color: purple;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 35px;
+        background-image: url(https://images.unsplash.com/photo-1536514498073-50e69d39c6cf?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdWQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    }
+  </style>
+
+</head>
+<body background="back.png">
+    <img src="">
+  <span id="logo">
+    <img src="data:image/jpeg;base64,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" height="90" alt="we for she logo" >
+  </span>
+  <input id="search-here" class="search-box" name="search" type="text" placeholder="Search here">
+      <span id="login">
+        <a href="/h6.html" target="blank">Login</a>
+        <a href="/h2.html" target="blank">Register</a>
+      </span>
+    <div id="nav">
+      <a href="/homepage.html">Home</a>
+      <a href="/news.html">News</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/about.html" target="_blank">About</a>
+
+    </div>
+    <img src="https://www.startupindia.gov.in/content/dam/invest-india/States-images/office-desk-animation.gif" height="495"  alt = "office desk animation">
+    <div id="heading">
+        <h3>Women Entrepreneurship in India </h3>
+    
+    </div>
+    <hr>
+  <div id="content">
+       
+        The rising number of female entrepreneurs has resulted in notable business and economic expansion within the nation. Businesses owned by women are actively contributing to society by creating job opportunities, influencing demographic changes, and serving as inspiration for the upcoming generation of female founders.
+In line with its mission to foster the sustainable advancement of women entrepreneurs for a well-rounded development in the nation, Startup India is dedicated to enhancing women's entrepreneurship in India through various programs, schemes, the establishment of supportive networks and communities, and the facilitation of partnerships among a wide range of stakeholders within the startup ecosystem.
+    </div>
+    <div id="">
+        <h3>Schemes by State Government</h3>
+        <hr>
+        <details>
+            <summary> Skill Upgradation and Mahila Coir Yojna</summary>
+            <details>
+                <summary>Ministry</summary>
+                Ministry of Micro, Small and Medium Enterprises
+            </details>
+            <details>
+                <summary>Department</summary>
+                Coir Board
+            </details>
+            <details>
+                <summary>Benefits of the Scheme</summary>
+                It is an exclusive training programme aimed at the skill 
+                development of women artisans engaged in the coir industry. Two months of training in coir spinning is imparted through this programme. The candidates who undergo this training are given a stipend of Rs. 3000/- per month. The trained artisans under the scheme are encouraged to avail assistance through Prime Minister’s Employment 
+                Generation Programme (PMEGP) scheme to set up coir units.
+            </details>
+            <details>
+                <summary>Eligibility Criteria</summary>
+                Rural women artisans in regions producing coir fibre.
+            </details>
+        </details>
+        <details>
+            <summary>Mahila Sammiridhi Yojna</summary>
+            <details>
+                <summary>Ministry</summary>
+                Ministry of Social Justice and Empowerment
+            </details>
+            <details>
+                <summary>Department</summary>
+                National Scheduled Castes Finance and Development Corporation
+            </details>
+            <details>
+                <summary>Benefits of the Scheme</summary>
+                It is a Micro Finance scheme for women with a rebate in interest.
+                 Financial Assistance up to the cost of Rs. 1,40,000/- is provided.
+            </details>
+            <details>
+                <summary>Eligibility</summary>
+                Women belonging to backward classes, as per the government norms, and
+                whose family income is less than Rupees three lakhs per annum.
+            </details>
+        </details>
+        <details>
+            <summary>Women Enterpreneurship Platform (WEP)</summary>
+            <details>
+                <summary>Ministry</summary>
+                Niti Aayog
+            </details>
+            <details>
+                <summary>Benefits of the scheme</summary>
+                As an aggregator platform,WEP hosts information and services relevant to women entrepreneurs. It enables key partnerships to bring crucial content, workshops, campaigns, and other avenues of learning and growth to its users from trailblazers in the industry.
+            </details>
+            <details>
+                <summary>Eligibilty Criteria</summary>
+                Existing and aspiring women entrepreneurs.
+            </details>
+        </details>
+        <details>
+            <summary>Mahila Shakti Kendra</summary>
+            <details>
+                <summary>Ministry</summary>
+                Ministry of Women and Child Development
+            </details>
+            <details>
+                <summary>Benefits of the Scheme</summary>
+                The Mahila Shakti Kendra (MSK) Scheme was approved in November, 2017 as a centrally sponsored scheme to empower rural women through community participation. The scheme is envisaged to provide an interface for rural women to approach the government for availing theor entitlements and for empowering them thriugh training and capacity building.
+            </details>
+            <details>
+                <summary>Eligibilty Criteria</summary>
+                Rural Women
+            </details>
+        </details>
+      </div>
+
+      <h4>What makes us Different?</h4>
+      <img src="https://d288gf2k0wd772.cloudfront.net/static/img/graphics/public-pages/online.0c7fbeb505b5.svg" alt="" width="200" >
+      We here at WeForShe, not only connect budding startups with investors,crowdfunding organisations and ngos, but also provide tutorials to enhance entrepreneurship skills of our future game changers.Our website also contains blogs by women themselves which aim to motivate and provide valuable insights to other 'She Heroes'.
+      <div>
+        <hr>
+        <h3>The true entrepreneur is a doer, not a dreamer. </h3>
+        <h4>by Nolan Bushnell</h4>
+      </div>
+      <div>
+        <hr>
+        <h2>
+            Invest alongside top investors
+        </h2>
+        <img src="Screenshot 2023-11-04 034908.jpg" alt="" width="1000">
+      </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#include<stdio.h>
+int  main() {
+	int a;
+	printf("\nExperiments With Decision Making :Enter a number :  ");
+	scanf("%d/n",&a);
+	if(a%2==0)
+	printf("Even\n");
+	else
+	printf("Odd\n");
+
+	if(a%3==0)
+	printf("Divisible By 3\n");
+	else
+	printf("Not Divisible by 3\n");
+	if(a%5==0|| a%7==0)
+	printf("Divisible By 5 or 7\n");
+	else
+	printf("Not Divisible by 5 or 7\n");
+
+	printf("Last Digit of Number :%d\n",a%10);
+
+	printf("Number except Last Digit  :%d\n",a/10);
+}

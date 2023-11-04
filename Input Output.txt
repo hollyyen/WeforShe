@@ -1,0 +1,12 @@
+include<stdio.h>
+int main() {
+	printf("%f\t",5.00000);
+	printf("%o\t",100);//converts decimal
+	printf("%x\t",3427);
+	printf("Multiple One :%3d \n",54);
+	printf("Octal output : %o, Hexadecimal output : %x, Decimal Output : %d\n",8,8,8);
+	printf("Octal input : %d, Hexadecimal input : %d, Decimal Input : %d\n",010,0x10,45);
+	//takes O/H/D value and returns it in decimal.
+	// 0 is added infront of a number to make it octal and 0x is added to make it hexadecimal
+
+}                                                                  

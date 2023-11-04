@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+string s1,s2;int s11=0;int s22=0;
+cin >>s1>>s2;
+int i=0;
+transform(s2.begin(), s2.end(), s2.begin(), ::tolower);
+transform(s1.begin(), s1.end(), s1.begin(), ::tolower);
+for(i=0;i<s1.size();i++)
+{
+s11+=(int)s1[i];
+s22+=(int)s2[i];
+}
+if(s1==s2)
+cout<<"0";
+else if(s1>s2)
+cout << "1";
+else 
+cout <<"-1";
+
+}
